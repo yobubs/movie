@@ -37,9 +37,9 @@ const Movies = () => {
                <a
                   key={s}
                   href="#"
-                  className="w-52 rounded-lg bg-slate-800 p-2 hover:bg-slate-700"
+                  className="w-40 rounded-lg bg-slate-800 p-2 hover:bg-slate-700 sm:w-52"
                >
-                  <div className="relative flex h-56 w-full items-center justify-center rounded-xl bg-slate-900 text-slate-400">
+                  <div className="relative flex h-48 w-full items-center justify-center rounded-xl bg-slate-900 text-slate-400 sm:h-56">
                      {s}
 
                      <div className="absolute right-2 top-1 flex items-center">
@@ -67,9 +67,9 @@ const Movies = () => {
                <a
                   key={s}
                   href="#"
-                  className="w-52 rounded-lg bg-slate-800 p-2 hover:bg-slate-700"
+                  className="w-40 rounded-lg bg-slate-800 p-2 hover:bg-slate-700 sm:w-52"
                >
-                  <div className="flex h-56 w-full items-center justify-center rounded-xl bg-slate-900 text-slate-400">
+                  <div className="relative flex h-48 w-full items-center justify-center rounded-xl bg-slate-900 text-slate-400 sm:h-56">
                      {s}
                   </div>
                   <p className="text-lg text-slate-300">Lorem</p>

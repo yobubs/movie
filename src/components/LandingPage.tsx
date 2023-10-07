@@ -9,10 +9,10 @@ const LandingPage = () => {
          >
             cineQ
          </a>
-         <div className="flex h-full w-full items-center justify-center text-slate-500 md:gap-5 lg:gap-20">
-            <div className="flex flex-col ">
+         <div className="flex h-full w-full flex-col-reverse items-center justify-center text-slate-500 sm:flex-row sm:gap-5 lg:gap-20">
+            <div className="flex flex-col  ">
                <p>watch on</p>
-               <h1 className="mb-3 text-center text-6xl text-slate-200">
+               <h1 className="mb-2 text-center text-5xl text-slate-200  lg:text-6xl">
                   Cine
                   <span
                      style={{
@@ -23,11 +23,11 @@ const LandingPage = () => {
                      Quixotica
                   </span>
                </h1>
-               <p className="mb-2 text-lg text-slate-400">
+               <p className="mb-2 text-center text-lg text-slate-400">
                   Your Gateway to Cinematic Wonders
                </p>
 
-               <div className="mt-4 flex items-center gap-2 self-end">
+               <div className=" mt-2 flex items-center gap-2 self-end">
                   why wait?
                   <a
                      href="#movies"
@@ -41,7 +41,7 @@ const LandingPage = () => {
             <img
                src={Posters}
                alt="photo"
-               className="hidden w-80 select-none md:inline-block"
+               className="w-60 select-none md:w-80 "
             />
          </div>
       </div>
